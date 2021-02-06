@@ -1,0 +1,151 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+.html1{
+    background-color:crimson;
+}
+
+.html2{
+    background-color:cornflowerblue;
+}
+
+.html3{
+    background-color: cyan;
+}
+
+.html4{
+    background-color:springgreen;
+}
+
+space-between{
+    display: flex;
+    height: 5px;
+    display:inline;
+    justify-content: space-between;
+    flex-direction: normal;
+}
+
+#logo{
+    width:7%;
+    height: 4%;
+    padding-top: 5px;
+    padding-left: 6px;
+    display: inline;
+    
+}
+
+.navbar{
+    padding-right:1%;
+    text-align: center;
+    display: inline; 
+    position: absolute;
+    top: 4%;
+    left: 65%; 
+    text-decoration: underline;
+    flex-wrap:nowrap;   
+    font-size: 18px;
+}
+
+li{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    display: inline;
+    margin-right: 30px;
+    }
+
+.intro{
+    text-align: center;
+    font-weight: bold;  
+    font-size: 23px;  
+}
+
+.img-title{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    background-color: black;
+    color: lightgreen;
+    font-size:23px; 
+  }
+
+  #backimg{
+      width: 100%;
+      height: auto; 
+  }
+
+  .all-text{
+      padding-left: 70px;
+      padding-right: 70px;
+      justify-content: space-around;
+      font-size:18px;
+      text-align: center;
+      
+  }
+
+  .all-img1{
+      width:450px;
+      height: 300px;
+      display: inline-block;
+      padding-right: 100px;
+      padding-left: 100px;
+      margin-right: 10px;
+      margin-left: 30px;
+      padding-bottom: 1%;
+  }
+
+  .all-img2{
+    
+    width: 450px;
+    height: 300px;
+    display: inline-block;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 1%;
+  }
+
+
+  #waste-quote{
+      color: black;
+      text-align: center;
+      padding-right: 10px;
+      font-size:20px;
+  }
+
+  .last-text{
+      display: flex;
+      flex-wrap:wrap;
+      flex-direction:row;
+  }
+
+  .contact-box{
+      background-color:thistle;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      font-size: 40px;
+     
+  }
+
+  #github-text{
+    text-decoration: underline;
+  }
+
+  #last-heading{
+      font-size: 37px;
+  }
+
+  .live{
+      border:teal;
+      margin-left: 545px;
+  }
